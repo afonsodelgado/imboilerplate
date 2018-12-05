@@ -1,0 +1,30 @@
+{
+  "name": "imboilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for imba apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base dist/",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afonsodelgado/imboilerplate.git"
+  },
+  "keywords": [
+    "imba",
+    "boilerplate"
+  ],
+  "author": "Afonso Delgado <afonsodelgadoss@gmail.com> (afonsodelgado.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afonsodelgado/imboilerplate/issues"
+  },
+  "homepage": "https://github.com/afonsodelgado/imboilerplate#readme",
+  "dependencies": {
+    "imba": "^1.4.1",
+    "webpack": "^4.27.0",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
