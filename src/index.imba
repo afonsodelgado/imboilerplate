@@ -1,0 +1,1 @@
+Imba.mount <h1> "Welcome to imba"
